@@ -27,7 +27,7 @@ metadata:
     kubernetes.io/change-cause: " webserver deployment"
   name: webserver-deployment
 spec:
-  replicas: 1
+  replicas: 2
   strategy:
     type: RollingUpdate
     rollingUpdate:
