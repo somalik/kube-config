@@ -29,7 +29,7 @@ metadata:
   name: webserver-deployment
   namespace: myapp
 spec:
-  replicas: 1
+  replicas: 5
   strategy:
     type: RollingUpdate
     rollingUpdate:
