@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/somalik/kube-config.git
     targetRevision: HEAD
-    path: nginx-deployment
+    path: kube-config
   destination:
     server: https://kubernetes.default.svc
 #    namespace: myapp
